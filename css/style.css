@@ -33,10 +33,52 @@ button{
   cursor: pointer;
 }
 
+.title{
+  font-weight: 400;
+  font-family: Yeseva One;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+.section{
+  padding-bottom: 150px;
+}
+
+.button{
+  padding: 18px 54px;
+  background: #FFBD59;
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .container{
   max-width: 1180px;
   padding: 0 10px 0 10px;
   margin: 0 auto;
+}
+
+.section--decor{
+  position: relative;
+}
+
+.section--decor::before{
+  content:'';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url(../images/section-decor.png);
+  width: 22px;
+  height: 30px;
+}
+
+.section--decor::after{
+  content:'';
+  position: absolute;
+  left: 22px;
+  bottom: 13px;
+  background-color: #7B6152;
+  width: 1000%;
+  height: 1px;
 }
 
 .menu__btn{
@@ -137,6 +179,7 @@ button{
   background-color: #A5978E;
   padding: 50px 0;
   color: #FAFAFA;
+  margin-bottom: 150px;
 }
 
 .about__inner{
@@ -167,25 +210,7 @@ button{
   position: relative;
 }
 
-.about__list::before{
-  content:'';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-image: url(../images/about-decor.png);
-  width: 22px;
-  height: 30px;
-}
 
-.about__list::after{
-  content:'';
-  position: absolute;
-  left: 22px;
-  bottom: 13px;
-  background-color: #7B6152;
-  width: 1000%;
-  height: 1px;
-}
 
 .about__item-img{
   margin-bottom: 10px;
@@ -194,6 +219,51 @@ button{
 .about__item-text{
   font-size: 11px;
 }
+
+.section__inner{
+  display: grid;
+  grid-template-columns: 370px auto;
+}
+
+.section__content-descr{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 92px;
+}
+
+.products__content{
+  gap: 50px 90px;
+}
+
+.products__item{
+  width: 290px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.products__item-img{
+  margin-bottom: 8px;
+}
+
+.products__item-price{
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+}
+
+.products__item-title{
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+}
+
+.products__item-text{
+  margin-bottom: 27px;
+  font-size: 12px;
+}
+
 
 
 
@@ -360,10 +430,6 @@ button{
 
   .title{
     font-size: 15px;
-  }
-  
-  .about__title{
-    margin-bottom: 20px;
   }
 
   .about__list{
