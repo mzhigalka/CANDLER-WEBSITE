@@ -471,8 +471,87 @@ button{
 }
 
 
+.promo{
+  background-image: url(../images/promo-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 140px 0;
+  
+}
 
+.promo__inner{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
 
+.promo__text{
+  font-size: 40px;
+  font-family: "Yeseva One", cursive;
+  color: #FFF;
+  padding-left: 56px;
+  max-width: 765px;
+  margin-right: 10px;
+}
+
+.promo__link{
+  color: #272727;
+  background-color: #FFBD59;
+  display: inline-block;
+  padding: 14px 25px 12px;
+}
+
+.contacts{
+  background-color: #FFF8F3;
+  padding: 150px 0 50px;
+}
+
+.contacts__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form{
+  background-color: #FFF;
+  width: 664px;
+  padding: 75px 42px 67px;
+}
+
+.form__title{
+  font-family: "Yeseva One", cursive;
+  margin-bottom: 60px;
+  color: #000;
+  font-size: 40px;
+}
+
+.form__input{
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  padding: 7px 10px;
+  color: #000;
+}
+
+.form__input::placeholder{
+  color: #B3B3B3;
+  font-family: Comfortaa;
+  font-size: 14px;
+}
+
+.form__btn{
+  background-color: #FFBD59;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-weight: 600;
+  color: #272727;
+  margin-top: 36px;
+  padding: 17px 34px;
+}
 
 
 
