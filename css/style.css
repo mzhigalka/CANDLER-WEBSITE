@@ -470,7 +470,6 @@ button{
   text-align: left;
 }
 
-
 .promo{
   background-image: url(../images/promo-bg.jpg);
   background-repeat: no-repeat;
@@ -515,6 +514,7 @@ button{
 
 .form{
   background-color: #FFF;
+  box-shadow: 0px 4px 11px 0px rgba(199, 175, 165, 0.30);
   width: 664px;
   padding: 75px 42px 67px;
 }
@@ -550,15 +550,8 @@ button{
   font-weight: 600;
   color: #272727;
   margin-top: 36px;
-  padding: 17px 34px;
+  padding: 17px 45px;
 }
-
-
-
-
-
-
-
 
 .footer{
   padding: 40px 0 35px 0;
@@ -688,6 +681,28 @@ button{
 
   .certificates__content .swiper-pagination{
     text-align: center;
+  }
+
+  .promo__link{
+    min-width: 135px;
+    text-align: center;
+  }
+
+  .promo__text{
+    max-width: 760px;
+  }
+
+  .promo__inner{
+    gap: 0px;
+  }
+  
+  .contacts__img{
+    width: 335px;
+    height: 510px;
+  }
+
+  .form{
+    width: 592px;
   }
 }
 
@@ -948,7 +963,48 @@ button{
 
   .feedback__item-text {
     margin-bottom: 5px;
-}
+  } 
+
+  .promo{
+    padding: 67px 0;
+  }
+
+  .promo__text{
+    font-size: 15px;
+  }
+
+  .promo__inner{
+    gap: 113px;
+  }
+
+  .promo__link{
+    font-size: 12px;
+  }
+  
+  .contacts__img{
+    width: 187px;
+    height: 285px;
+    object-fit: cover;
+  }
+
+  .form{
+    width: 440px;
+    gap: 0 20px;
+    padding: 30px 22px;
+  }
+
+  .form__title{
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .form__btn{
+    margin-top: 10px;
+  }
+
+  .contacts__inner{
+    gap: 0 15px;
+  }
 }
 
 @media (max-width: 640px){
@@ -1136,6 +1192,40 @@ button{
   .certificates__slider{
     width: 415px;
     margin: 0 auto;
+  }
+
+  .promo{
+    padding: 42px 0;
+  }
+
+  .contacts__img{
+    display: none;
+  }
+
+  .promo__link {
+    margin-right: 43px;
+    padding: 11px 16px;
+  }
+
+  .promo__inner {
+    gap: 0px;
+  }
+
+  .promo__text {
+    padding-left: 43px;
+  }
+
+  .form__input::placeholder{
+    font-size: 10px;
+  }
+
+  .contacts {
+    padding: 50px 0 50px;
+  }
+
+  .form__btn {
+    padding: 15px 13px;
+    font-size: 10px;
   }
 }
 
@@ -1327,6 +1417,15 @@ button{
   .feedback__item-name{
     font-size: 12px;
     margin-bottom: 10px;
+  }
+
+  .promo__text{
+    margin-right: 50px;
+    padding: 0;
+  }
+
+  .promo__link{
+    margin: 0;
   }
 }
 
